@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5bffae0b.chunk.css",
+    "main.js": "/static/js/main.b98f616e.chunk.js",
+    "main.js.map": "/static/js/main.b98f616e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bf031165.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bf031165.js.map",
+    "static/css/2.ab3f47cb.chunk.css": "/static/css/2.ab3f47cb.chunk.css",
+    "static/js/2.610800e3.chunk.js": "/static/js/2.610800e3.chunk.js",
+    "static/js/2.610800e3.chunk.js.map": "/static/js/2.610800e3.chunk.js.map",
+    "static/js/3.04079d02.chunk.js": "/static/js/3.04079d02.chunk.js",
+    "static/js/3.04079d02.chunk.js.map": "/static/js/3.04079d02.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ab3f47cb.chunk.css.map": "/static/css/2.ab3f47cb.chunk.css.map",
+    "static/css/main.5bffae0b.chunk.css.map": "/static/css/main.5bffae0b.chunk.css.map",
+    "static/js/2.610800e3.chunk.js.LICENSE.txt": "/static/js/2.610800e3.chunk.js.LICENSE.txt",
+    "static/media/DropDown.4795f72d.svg": "/static/media/DropDown.4795f72d.svg",
+    "static/media/arrow.8322a6cd.svg": "/static/media/arrow.8322a6cd.svg",
+    "static/media/googleIcon.00ea34b2.svg": "/static/media/googleIcon.00ea34b2.svg",
+    "static/media/Home.css": "/static/media/hero-bcg.b4c96268.jpeg",
+    "static/media/product-1.ef82610d.jpeg": "/static/media/product-1.ef82610d.jpeg",
+    "static/media/product-2.5a961464.jpeg": "/static/media/product-2.5a961464.jpeg",
+    "static/media/product-3.7815edf9.jpeg": "/static/media/product-3.7815edf9.jpeg",
+    "static/media/product-4.888034ba.jpeg": "/static/media/product-4.888034ba.jpeg",
+    "static/media/product-5.9b593b6b.jpeg": "/static/media/product-5.9b593b6b.jpeg",
+    "static/media/product-6.2801444b.jpeg": "/static/media/product-6.2801444b.jpeg",
+    "static/media/product-7.b46ebe17.jpeg": "/static/media/product-7.b46ebe17.jpeg",
+    "static/media/product-8.435e9c26.jpeg": "/static/media/product-8.435e9c26.jpeg",
+    "static/media/settingIcon.cae66887.svg": "/static/media/settingIcon.cae66887.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf031165.js",
+    "static/css/2.ab3f47cb.chunk.css",
+    "static/js/2.610800e3.chunk.js",
+    "static/css/main.5bffae0b.chunk.css",
+    "static/js/main.b98f616e.chunk.js"
+  ]
+}

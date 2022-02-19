@@ -1,0 +1,118 @@
+.orderpage {
+  height: 100%;
+  background-color: white;
+}
+.orderPage_Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid;
+}
+.orderPage_title {
+  margin: 30px;
+  width: 80%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.order_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.list_Order {
+  width: 1000px;
+}
+.order_item_container {
+  position: relative;
+  margin-top: 15px;
+  width: 100%;
+  min-height: 200px !important;
+  padding: 20%;
+  box-sizing: border-box;
+}
+.order_item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border: 1px solid;
+}
+.order_img_container {
+  width: 30%;
+  padding: 5px;
+  object-fit: contain;
+}
+.list_bottom {
+  margin: 20px;
+  padding: 10px;
+}
+.info {
+  top: 0;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid;
+}
+.order_item_title {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  border-bottom: 1px solid;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.order__info {
+  width: calc(100% - 10px);
+  height: calc((80% - 20px) / 5);
+  padding: 5px;
+}
+.order__info_tag {
+  width: 20%;
+  text-align: left;
+  font-size: 20px;
+}
+.order__info_i {
+  font-size: 20px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .orderPage_title {
+    font-size: 20px;
+  }
+  .list_Order {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .order_img_container {
+    padding: 0px !important;
+  }
+  .orderPage_title {
+    font-size: 16px !important;
+  }
+  .order_item_title {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info {
+    padding: 0px !important;
+  }
+  .order__info_tag {
+    font-size: 12px;
+  }
+  .order__info_i {
+    font-size: 14px;
+  }
+  .order__date {
+    font-size: 12px !important;
+  }
+}

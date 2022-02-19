@@ -1,0 +1,141 @@
+.View-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+}
+.product__Top {
+  width: 80%;
+  display: flex;
+  border: 1px solid #000;
+}
+.product__img {
+  width: 30%;
+  border: 1px solid #333;
+}
+.image__zoomer {
+  display: block;
+  padding: 20px;
+}
+.thumbnail_pic {
+  padding: 10px;
+}
+.product__info {
+  padding: 20px;
+  position: relative;
+  border-top: 1px solid #000;
+  width: 70%;
+  text-transform: capitalize;
+}
+.product___title {
+  text-align: center;
+}
+.product___detail_box {
+  margin: 20px;
+  padding: 10px;
+}
+.product___detail {
+  font-style: italic;
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.product__detail_q {
+  width: 20%;
+}
+.product__detail_info {
+  width: 80%;
+  display: flex;
+  font-weight: bold;
+}
+.descriptioner {
+  font-weight: normal !important;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.btn_box {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.BtnAddToCart {
+  display: flex;
+  font-family: "Playball";
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 25px;
+  border: 1px solid rgb(86, 84, 84);
+  cursor: pointer;
+  background: rgb(255, 196, 87);
+}
+@media screen and (max-width: 1300px) {
+  .product__Top {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .View-product {
+    display: flex;
+    flex-direction: column;
+  }
+  .product__Top {
+    display: flex;
+    flex-direction: column;
+  }
+  .product__img {
+    width: 100%;
+  }
+  .product__info {
+    width: 100%;
+  }
+  .fluid__image-container {
+    display: none;
+  }
+  .image__zoomer {
+    padding: 15px;
+  }
+  .zoomer_imag {
+    object-fit: cover;
+  }
+
+  .magnifying-glass {
+    z-index: 100;
+  }
+  .product___title {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  .product___detail_box {
+    margin: 10px;
+  }
+  .product___detail {
+    font-size: 16px;
+  }
+  .desInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .descriptioner {
+    font-weight: bold;
+    margin-left: 5px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .btn_box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .BtnAddToCart {
+    font-size: 16px;
+  }
+}

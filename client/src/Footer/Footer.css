@@ -1,0 +1,126 @@
+.footers {
+  padding: 60px 0;
+  color: #f0f9ff;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+}
+
+.con {
+  padding: 0 30px;
+  width: 100vw;
+  display: flex;
+}
+.row1 {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  padding: 10px;
+  align-items: left;
+}
+.row1 > h1 {
+  height: 40%;
+  display: flex;
+  font-size: 2.5rem;
+  align-items: center;
+  font-family: "Playball";
+}
+.description {
+  margin-top: 5px;
+  color: #aaa;
+}
+.row2 {
+  display: flex;
+  flex-direction: column;
+  flex: 0.45;
+  align-items: center;
+}
+.contact_list {
+  color: #aaa;
+  display: flex;
+  justify-content: center;
+  width: 330px;
+  margin-bottom: 15px;
+}
+.IconText {
+  margin-right: 20px;
+}
+.row3 {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  align-items: center;
+}
+.Icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Icon_Container {
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Icon_Container:hover {
+  background: rgb(49, 173, 255);
+  color: black;
+}
+
+.rowSide {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  height: 40px;
+  width: 225px;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .con {
+    padding: 10px !important;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .con {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+  }
+  .row1 > h1 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .description {
+    width: 70%;
+    text-align: center;
+  }
+  .row2 {
+    margin: 15px 0;
+    padding-top: 10px;
+    border: 1px solid #fff;
+  }
+  .row3 {
+    margin-top: 15px;
+    padding-top: 10px;
+    border: 1px solid #fff;
+  }
+  .rowSide {
+    font-family: "Playball";
+    font-size: 1.6rem;
+  }
+}

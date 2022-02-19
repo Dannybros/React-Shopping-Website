@@ -1,0 +1,44 @@
+.carousel {
+  padding: 60px 0;
+}
+.Swiper__cont {
+  display: flex;
+  justify-content: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper_navigation {
+  margin: 0 20px;
+}
+.swiper-wrapper {
+  padding-inline-start: 0;
+}
+.thumbs_img {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 1500px) {
+  .slider_img {
+    max-width: 100%;
+  }
+  .thumbs_img {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .carousel {
+    padding: 15px 0;
+  }
+  .Main_imag {
+    width: 100%;
+  }
+  .thumbs_img {
+    min-width: 30px;
+  }
+}
