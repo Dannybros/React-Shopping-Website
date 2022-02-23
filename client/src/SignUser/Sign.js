@@ -23,7 +23,6 @@ function Sign() {
       
         await axios.post('/user/signin', formData)
         .then((res)=>{
-            console.log(res.data);
             
             localStorage.setItem('UserProfile', JSON.stringify(res.data.result));
             history.goBack();
